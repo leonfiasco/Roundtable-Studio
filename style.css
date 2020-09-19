@@ -9,6 +9,13 @@ body {
     height: 52px;
 }
 
+button {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50%;
+    border-style: none;
+}
+
 .second-section {
     background-color: #252525;
     max-width: 100%;
