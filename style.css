@@ -1,8 +1,13 @@
 body {
     margin: auto;
-    background-color: #fffef2;
     overflow-x: hidden;
     font-size: 18px;
+    background-color: #fffef2;
+}
+
+.wrapper {
+    min-height: 100%;
+    
 }
 
 .first-banner{
@@ -11,7 +16,7 @@ body {
     height: 52px;
 }
 
-button {
+.exit-btn {
     position: relative;
     right: 20px;
     top: 10px;
@@ -83,7 +88,7 @@ button {
     font-size: 1rem;
 }
 
-section {
+.text-container {
     position: relative;
     top: 230px;
 }
@@ -138,3 +143,67 @@ h6 {
     top: 60px;
 }
 
+.container-3 {
+    position: relative;
+    top: 315px;
+    width: 96%;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.img-4 {
+    width: 100%;
+}
+
+.text-box-3 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+}
+
+.rectangle-btn {
+    height: 59px;
+    width: 198px;
+    border: 1px solid red;
+    position: relative;
+    top: 10px;
+}
+
+.test {
+    margin-bottom: 100px;
+}
+
+
+footer {
+    position: relative;
+    margin-top: 650px;
+    height: 100px;
+    width: 100%;
+    background-color: #fffef2;
+    color:  #000;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.subscribe {
+    text-align: left;
+}
+
+.subscribe-title {
+    font-size: 1rem;
+}
+
+
+.footer-textbox {
+    width: 380px;
+}
+
+.footer-links {
+    display: flex;
+}
