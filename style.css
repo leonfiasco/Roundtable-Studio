@@ -12,8 +12,10 @@ body {
 }
 
 button {
-    display: flex;
-    justify-content: flex-end;
+    position: relative;
+    right: 20px;
+    top: 10px;
+    float: right;
     border-radius: 50%;
     border-style: none;
 }
@@ -24,7 +26,7 @@ button {
     height: 70px;
 }
 
-.first-image-section{
+.continer-1 {
     max-width: 100%;
     height: 100%;
 }
@@ -39,6 +41,9 @@ button {
 
 .review-container {
     display: inline-flex;
+    justify-content: space-between;
+    width: 50%;
+    
 }
 
 .review-text {
@@ -46,19 +51,20 @@ button {
     font-size: 1rem;
 }
 
+
 .review-img {
-    height: 32px;
+    height: 45px;
     width: 50px;
     border-radius: 50%;
 }
 
-.line {
+.horizontal-line {
     border: 1px solid #252525;
     width: 50%;
     margin: 0 auto;
 }
 
-.container {
+.img-container {
     position: relative;
     top: 190px;
     width: 96%;
@@ -110,13 +116,25 @@ h6 {
     max-width: 1310px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .img-2 {
     width: 50%;
+    margin-right: 5px;
 }
 
 .img-3 {
     width: 50%;
+    margin-left: 5px;
+} 
+
+.text-box-2 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    font-size: 16px;
+    position: relative;
+    top: 60px;
 }
 
