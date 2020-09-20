@@ -167,9 +167,14 @@ h6 {
 .rectangle-btn {
     height: 59px;
     width: 198px;
-    border: 1px solid red;
+    opacity: 30%;
     position: relative;
     top: 10px;
+}
+
+.arrow {
+    height: 19px;
+    float: right;
 }
 
 .test {
@@ -190,16 +195,29 @@ footer {
 .footer-container {
     display: flex;
     padding-bottom: 70px;
+    font-size: 14px;
 }
 
 .subscribe {
     text-align: left;
+    color: #999999;
 }
 
 .subscribe-title {
     font-size: 1rem;
 }
 
+.email {
+    font-size: 1.55rem;
+    margin-bottom: 0;
+}
+
+.email-underline {
+    height: 1px;
+    width: 427px;
+    color: #999999;
+    border: 1 solid red;
+}
 
 .footer-textbox {
     width: 393px;
@@ -216,6 +234,10 @@ footer {
 
 ul {
     list-style: none;
+}
+
+ul p {
+    color: #999999;
 }
 
 
