@@ -1,8 +1,26 @@
+@font-face {
+    font-family: roboto-reg;
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url("fonts/Roboto-Bold.ttf");
+}
+
 body {
     margin: auto;
     overflow-x: hidden;
     font-size: 18px;
     background-color: #fffef2;
+}
+
+p {
+    font-family: roboto-reg;
+}
+
+h1, h6 {
+    font-family: roboto-bold;
 }
 
 .wrapper {
@@ -201,6 +219,7 @@ footer {
 .subscribe {
     text-align: left;
     color: #999999;
+    margin-left: 20px;
 }
 
 .subscribe-title {
@@ -236,6 +255,10 @@ ul {
     list-style: none;
 }
 
+li {
+    font-family: roboto-reg;
+}
+
 ul p {
     color: #999999;
 }
@@ -248,8 +271,45 @@ ul p {
 }
 
 .copyright {
+    font-size: 14px;
     margin-top: 0;
     color: #fff;
     text-align: left;
     padding-top: 30px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 790px) {
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    max-width: 790px;
+    margin: 0 auto;
+} 
+
+.img-2 {
+    transform: rotate(90deg);
+}
+
+.img-3 {
+    transform: rotate(90deg);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-underline {
+    margin-left: 0;
+}
+
+.footer-links {
+    position: relative;
+    margin-right: 10px
+}
+
 }
