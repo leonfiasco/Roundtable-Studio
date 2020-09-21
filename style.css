@@ -25,6 +25,7 @@ h1, h6 {
 
 .wrapper {
     min-height: 100%;
+    overflow-x: hidden;
     
 }
 
@@ -216,6 +217,15 @@ footer {
     font-size: 14px;
 }
 
+.footer-title {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    bottom: -480px;
+    
+    
+}
+
 .subscribe {
     text-align: left;
     color: #999999;
@@ -281,23 +291,6 @@ ul p {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 790px) {
-
-.container-2 {
-    display: flex;
-    flex-direction: column;
-    width: 96%;
-    max-width: 790px;
-    margin: 0 auto;
-} 
-
-.img-2 {
-    transform: rotate(90deg);
-}
-
-.img-3 {
-    transform: rotate(90deg);
-}
-
 .footer-container {
     display: flex;
     flex-direction: column;
