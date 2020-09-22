@@ -292,6 +292,11 @@ ul p {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 790px) {
+
+   .sample-txt {
+       font-size: 1em;
+   } 
+
 .footer-container {
     display: flex;
     flex-direction: column;
