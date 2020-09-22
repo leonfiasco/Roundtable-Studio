@@ -245,7 +245,7 @@ footer {
     height: 1px;
     width: 427px;
     color: #999999;
-    border: 1 solid red;
+    opacity: 15%;
 }
 
 .footer-textbox {
@@ -303,7 +303,9 @@ ul p {
 
 .footer-links {
     position: relative;
-    margin-right: 10px
+    right: 50px;
+    top: 50px;
+    
 }
 
 }
